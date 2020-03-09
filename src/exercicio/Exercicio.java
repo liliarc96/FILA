@@ -43,8 +43,20 @@ public class Exercicio {
             fila.add(pilha.pop());
         }
         
-         System.out.println("\n\nFila nova: "+fila);
-         System.out.println("Pilha nova: "+pilha);
+        System.out.println("\n\nFila nova: "+fila);
+        System.out.println("Pilha nova: "+pilha);
+        
+        while(!fila.isEmpty()){
+            pilha.push(fila.poll);
+        }
+        
+        System.out.println(pilha);
+        
+        while(!pilha.isEmpty()){
+            fila.add(pilha.pop());
+        }
+        
+        System.out.println(fila);
     }
     
 }
