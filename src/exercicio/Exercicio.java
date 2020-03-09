@@ -46,6 +46,7 @@ public class Exercicio {
         System.out.println("\n\nFila nova: "+fila);
         System.out.println("Pilha nova: "+pilha);
         
+        /* COM WHILE
         while(!fila.isEmpty()){
             pilha.push(fila.poll);
         }
@@ -57,6 +58,7 @@ public class Exercicio {
         }
         
         System.out.println(fila);
+        */
     }
     
 }
